@@ -1,3 +1,4 @@
+#Loading multiple csv files using windows's powershell
 $escape = '\"'
 $files = Get-ChildItem path -Recurse *.csv
 foreach($f in $files){
